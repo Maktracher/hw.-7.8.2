@@ -23,13 +23,24 @@
 			50 * i + 25, 25, 50 * perm[i] + 25, 50 * n - 25);
 	}
 
-	fprintf(svg_file, "</svg>"); 
-	fclose(svg_file); 
+	fprintf(svg_file, "</svg>"); // Zatvorte značku SVG
+	fclose(svg_file); // Zatvorte súbor
 
 	printf("Obraz bol úspešne vytvorený ");
 	return 1;
 }
 
 int main() {
+	srand(time(NULL));
 
+	size_t size_permut = 10;
+	int* permut = (int*)malloc(size_permut * sizeof(int));
+
+	for (size_t i = 0; i < size_permut; i++)
+	{
+		permut[i] = rand() % 100;
+	}
+	svg_draw_permutation(permut, size_permut);
+
+	free(permut);
 }
