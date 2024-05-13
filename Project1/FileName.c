@@ -9,6 +9,11 @@
 		printf("Error: Nesprávne vstupné údaje");
 		return -1;
 	}
+	FILE* svg_file = fopen("permutation.svg", "w"); // Otvorenie súboru na zápis
+	if (svg_file == NULL) { // Kontrola chyby pri otváraní súboru
+		printf("Error: nepodarilo sa otvoriť súbor");
+		return -1;
+	}
 
 }
 int main() {
