@@ -1,6 +1,5 @@
 ﻿#include <stdlib.h>
 #include <stdio.h>
-
 #include <time.h> // Pridané na použitie funkcie time().
 #pragma warning (disable:4996) // Pridané pre kompilátor VS
 

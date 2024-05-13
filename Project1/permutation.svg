@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="500" height="500">
+<line x1='25' y1='25' x2='4475' y2='475' stroke='green' />
+<line x1='75' y1='25' x2='4875' y2='475' stroke='green' />
+<line x1='125' y1='25' x2='2125' y2='475' stroke='green' />
+<line x1='175' y1='25' x2='3625' y2='475' stroke='green' />
+<line x1='225' y1='25' x2='2475' y2='475' stroke='green' />
+<line x1='275' y1='25' x2='4425' y2='475' stroke='green' />
+<line x1='325' y1='25' x2='975' y2='475' stroke='green' />
+<line x1='375' y1='25' x2='275' y2='475' stroke='green' />
+<line x1='425' y1='25' x2='1425' y2='475' stroke='green' />
+<line x1='475' y1='25' x2='3375' y2='475' stroke='green' />
+</svg>
