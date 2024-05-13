@@ -14,6 +14,10 @@
 		printf("Error: nepodarilo sa otvoriť súbor");
 		return -1;
 	}
+	size_t width = 50 * n, height = 50 * n; // Rozmery obrázka SVG
+	fprintf(svg_file, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"); // Hlavička SVG
+	fprintf(svg_file, "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"%d\" height=\"%d\">\n", width, height); // Otvorte značku SVG
+
 
 }
 int main() {
