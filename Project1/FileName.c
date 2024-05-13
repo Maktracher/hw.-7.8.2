@@ -23,8 +23,8 @@
 			50 * i + 25, 25, 50 * perm[i] + 25, 50 * n - 25);
 	}
 
-	fprintf(svg_file, "</svg>"); // Zatvorte značku SVG
-	fclose(svg_file); // Zatvorte súbor
+	fprintf(svg_file, "</svg>"); 
+	fclose(svg_file); 
 
 	printf("Obraz bol úspešne vytvorený ");
 	return 1;
